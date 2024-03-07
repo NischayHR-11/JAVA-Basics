@@ -2,9 +2,12 @@
 
 public class ProblemSolving1 {
     public static void main(String[] args) {
+
         int x = 0b1010, y = 0b0010;
         System.out.println("BEFORE SWAPPING : X :" + x + " ,Y:" + y);
+
         //SWAPPING BITWISE;
+        
         x = x ^ y;
         y = x ^ y;
         x = x ^ y;
