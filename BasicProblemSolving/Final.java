@@ -1,11 +1,14 @@
 public class Final {
+
         static boolean prime(int n) {
+
         for (int i = 2; i <= n / 2; i++) {
             if (n % i == 0)
                 return false;
         }
         return true;
     }
+
         static int hcf(int x, int y) {
         while (x != y) {
             if (x > y)
@@ -15,6 +18,7 @@ public class Final {
         }
         return x;
     }
+
         static int max(int a[]) {
         int max = 0;
         for (int i = 0; i < a.length; i++) {
@@ -22,17 +26,20 @@ public class Final {
         }
         return max;
     }
+
         static boolean valid(String s) {
         if (s.matches("[0-9!@#$%^&*()_]+"))
             return false;
         else
             return true;
         }
+
         static boolean valid(int n){
         if(n>=3&&n<=15)
             return true;
         return false;
         }
+
         static int max1(int...n){
             int high=0;
             for(int x:n){
@@ -40,6 +47,7 @@ public class Final {
             }
           return high;
         }
+
     static int sum(int...n){
         int high=0;
         for(int x:n){
@@ -47,6 +55,7 @@ public class Final {
         }
         return high;
     }
+
     static float dis(float...n){
         float high=0;
         for(float x:n){
@@ -58,6 +67,7 @@ public class Final {
             high=high-high*0.02f;
         return high;
         }
+        
         static double str(String ...s){
             double sum=0;
             for(String x:s){
